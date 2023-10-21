@@ -2,7 +2,7 @@
 
 Siteyi görüntülemek [için](https://ahmetakifcetin-eb015.web.app/) ziyaret edebilirsiniz.
 
-![Uygulama Ekran Görüntüsü](screenshot.png)
+![Uygulama Ekran Görüntüsü](Screenshot.png)
 
 Kullanıcı arayüzü optimizasyonlu Hava Durumu Takip uygulaması [Ahmet Akif Çetin](https://github.com/ahmetakifcetin) tarafından geliştirilmiştir ve 2023 yılında oluşturulmuştur.
 
