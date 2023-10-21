@@ -1,8 +1,10 @@
-# Hava Durumu Uygulaması
+# Hava Durumu UI/UX APP v1.0
+
+Siteyi görüntülemek [için](https://ahmetakifcetin-eb015.web.app/) ziyaret edebilirsiniz.
 
 ![Uygulama Ekran Görüntüsü](screenshot.png)
 
-Bu basit hava durumu uygulaması, [Ahmet Akif Çetin](https://github.com/ahmetakifcetin) tarafından geliştirilmiştir ve 2023 yılında oluşturulmuştur.
+Kullanıcı arayüzü optimizasyonlu Hava Durumu Takip uygulaması [Ahmet Akif Çetin](https://github.com/ahmetakifcetin) tarafından geliştirilmiştir ve 2023 yılında oluşturulmuştur.
 
 ## Özellikler
 
@@ -24,11 +26,20 @@ Uygulamayı kullanmak için aşağıdaki adımları takip edebilirsiniz:
 
     cd hava-durumu-uygulamasi
 
-3. Tarayıcıda index.html dosyasını açın:
+3. Tarayıcıda index.html dosyasını açın.
+
+## API Nasıl kullanılır
+
+1. Geliştirici hesabınızdan apı keyinizi aldıktan sonra. "script.js" içerisindeki apıKey="Buraya" yapıştırın.
+
+2. Eğer ki izleme tek bir bölge olacak ise bölgenizin ID bilgisini almanız gerekir. Alırsanız apiUrl="Buraya" yapıştırın.
+
+3. API Key aldığınız sağlayıcıdan GET isteği gönderin.
+
+4. "Başarılı" mesajını aldıktan sonra Node.js ya da JSON kullanarak çalıştırın.
 
 ## Lisans
 
 Bu proje MIT Lisansı altında lisanslanmıştır. Detaylı bilgi için lisans dosyasını inceleyebilirsiniz.
 
 © 2023 Ahmet Akif Çetin. Tüm hakları saklıdır.
-
