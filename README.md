@@ -1,4 +1,4 @@
-# Hava Durumu UI/UX APP v1.0
+# Hava Durumu UI App v1.0
 
 Siteyi görüntülemek [için](https://ahmetakifcetin-eb015.web.app/) ziyaret edebilirsiniz.
 
