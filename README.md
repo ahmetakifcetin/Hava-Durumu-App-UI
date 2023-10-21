@@ -23,16 +23,23 @@ Uygulamayı kullanmak için aşağıdaki adımları takip edebilirsiniz:
    
 
 2. Proje dizinine gidin:
-
+   ```bash
     cd hava-durumu-uygulamasi
 
 3. Tarayıcıda index.html dosyasını açın.
 
 ## API Nasıl kullanılır
 
-1. Geliştirici hesabınızdan apı keyinizi aldıktan sonra. "script.js" içerisindeki apıKey="Buraya" yapıştırın.
+1. Geliştirici hesabınızdan apı keyinizi aldıktan sonra. "script.js" içerisindeki apıKey="Buraya" yapıştırın:
+
+   ```bash
+         const apiKey = ""; //API Keyinizi (Kimseyle Paylaşmayınız.)
+
 
 2. Eğer ki izleme tek bir bölge olacak ise bölgenizin ID bilgisini almanız gerekir. Alırsanız apiUrl="Buraya" yapıştırın.
+
+      ```bash
+         const apiUrl = "http://dataservice.accuweather.com/forecasts/v1/daily/5day/"; //Lokasyon ID hava durumu sayfasından alabilirsiniz 5 Günlük API için önrek kullanım 
 
 3. API Key aldığınız sağlayıcıdan GET isteği gönderin.
 
